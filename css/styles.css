@@ -12,12 +12,20 @@ body {
   color: var(--color-first);
   background-color: var(--color-third);
 }
-li {
+ul {
   list-style-type: none;
+  margin: 0 auto;
 }
 
 /* Header */
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  outline: 2px solid tomato;
+
+}
 .webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -67,6 +75,7 @@ li {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-third);
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -77,7 +86,13 @@ li {
   letter-spacing: 0.04em;
   color: var(--color-third);
   background-color: var(--color-fifth);
+  border: 2px solid var(--color-fifth);
   border-radius: 4px;
+  cursor: pointer;
+  padding: 16px 32px;
+  display: inline-block;
+  min-width: 169px;
+  text-align: center;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -102,21 +117,24 @@ li {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 .advantages-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-second);
+  margin: 0 auto;
 }
 
 /* Section 2 */
 
-.section-title {
+.we-doing-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 
 /* Section 3 */
@@ -130,12 +148,14 @@ li {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-second);
+  margin: 0 auto;
 }
 .team-cards {
   background-color: var(--color-third);
@@ -190,6 +210,7 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-sixth);
+  margin: 0 auto;
 }
 .logo-studio-footer {
   color: var(--color-fourth);
