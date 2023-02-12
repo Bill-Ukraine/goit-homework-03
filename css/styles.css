@@ -30,6 +30,7 @@ ul {
 }
 img {
   display: block;
+  width: 100%;
 }
 
 /* Header */
@@ -41,7 +42,6 @@ img {
 
 .header-container {
   display: flex;
-  gap: 332px;
   align-items: center;
 }
 
@@ -105,6 +105,11 @@ img {
 .header-link-address:focus {
   color: var(--color-seventh);
 }
+
+.header-address {
+  margin-left: auto;
+}
+
 .header-link-address {
   font-size: 16px;
   line-height: 1.5;
@@ -139,6 +144,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--color-third);
   background-color: var(--color-fifth);
+  border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
   padding: 16px 32px;
@@ -177,7 +183,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0 auto;
+  margin-bottom: 8px;
 }
 .advantages-text {
   font-size: 16px;
@@ -233,7 +239,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  padding-top: 32px;
 }
 
 .our-team-cards {
@@ -242,17 +247,22 @@ img {
   flex-wrap: wrap;
 }
 
+.team-image {
+  margin-bottom: 32px;
+}
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-second);
   margin-bottom: 0;
-  padding-bottom: 32px;
 }
 .team-cards {
   flex-basis: calc((100% - 72px) / 4);
   background-color: var(--color-third);
+  padding-bottom: 32px;
+  border: 1px solid var(--color-sixth);
 }
 
 /* Portfolio */
@@ -313,7 +323,7 @@ img {
 
 
 .portfolio-cards-text {
-  padding-left: 16px;
+  padding: 32px 16px;
   border-style: solid;
   border-color: var(--color-sixth);
   border-width: 0 1px 1px 1px;
@@ -324,12 +334,10 @@ img {
   text-decoration: none;
 }
 .portfolio-text {
-  font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-second);
   margin-bottom: 0;
-  padding-bottom: 32px;
 }
 
 /* Footer */
@@ -343,8 +351,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-sixth);
-  margin: 0 auto;
+  margin: 0;
+  max-width: 264px;
 }
 .logo-studio-footer {
+  margin-bottom: 16px;
   color: var(--color-fourth);
 }
