@@ -286,7 +286,7 @@ img {
   row-gap: 48px;
 }
 
-.portfolio-list {
+.portfolio-cards-item {
   flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -351,10 +351,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-sixth);
-  margin: 0;
+  margin: 16px 0 0;
   max-width: 264px;
 }
 .logo-studio-footer {
-  margin-bottom: 16px;
   color: var(--color-fourth);
 }
